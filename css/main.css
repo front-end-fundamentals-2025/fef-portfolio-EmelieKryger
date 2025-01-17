@@ -1,0 +1,38 @@
+/* Background and fonts*/
+* {
+  background-color: rgb(204, 203, 203);
+}
+* {
+  font-family: "Quicksand", serif;
+  font-weight: 300;
+}
+
+/* Header */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: black;
+}
+
+/* Main */
+/* index */
+.main-img {
+  width: 40%;
+}
+/* contact */
+input {
+  margin: 10px;
+}
+
+h1 {
+  color: rgb(99, 27, 35);
+}
+
+/* Footer */
+footer {
+  border-top: 2px solid black;
+  margin-top: 40px;
+}
