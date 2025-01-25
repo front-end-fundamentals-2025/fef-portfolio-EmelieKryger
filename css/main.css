@@ -1,6 +1,6 @@
 /* Background and fonts*/
 * {
-  background-color: rgb(204, 203, 203);
+  background-color: rgb(219, 210, 199);
 }
 * {
   font-family: "Quicksand", serif;
@@ -8,7 +8,20 @@
 }
 
 /* Header */
+header {
+  display: flex;
+  align-items: center;
+  li {
+    margin-left: 10px;
+  }
+}
+h3 {
+  border: 2px solid black;
+  display: inline;
+  padding: 4px;
+}
 ul {
+  display: flex;
   list-style: none;
   padding-left: 0;
 }
@@ -17,23 +30,45 @@ a {
   color: black;
 }
 
+/* Header ends */
+
 /* Main */
 /* index */
 .main-img {
   width: 40%;
 }
-/* contact */
-input {
-  margin: 10px;
-  padding-right: 20px;
-}
 
 h1 {
   color: rgb(99, 27, 35);
 }
+/* contact */
+input {
+  margin-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  padding-right: 20px;
+}
+
+/* projects */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+figure {
+  margin-left: 0px;
+}
+
+.projects-image {
+  width: 100%;
+}
+
+/* Main ends */
 
 /* Footer */
 footer {
   border-top: 2px solid black;
   margin-top: 40px;
 }
+
+/* Footer ends */
