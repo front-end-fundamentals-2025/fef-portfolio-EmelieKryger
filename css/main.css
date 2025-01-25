@@ -63,6 +63,12 @@ figure {
   width: 100%;
 }
 
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain; /* keeps the full image visable */ /* comment chatGPT */
+}
+
 /* Main ends */
 
 /* Footer */
