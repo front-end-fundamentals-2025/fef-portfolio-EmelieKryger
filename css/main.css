@@ -11,9 +11,9 @@
 header {
   display: flex;
   align-items: center;
-  li {
-    margin-left: 10px;
-  }
+}
+header li {
+  margin-left: 10px;
 }
 h3 {
   border: 2px solid black;
@@ -42,11 +42,15 @@ h1 {
   color: rgb(99, 27, 35);
 }
 /* contact */
-input {
+form input {
   margin-left: 0px;
   margin-top: 5px;
   margin-bottom: 25px;
   padding-right: 20px;
+}
+
+form a {
+  border: 2px;
 }
 
 /* projects */
@@ -64,11 +68,16 @@ figure {
 }
 
 img {
-  width: 200px;
-  height: 200px;
-  /* Begin help from second year NMD student Erik Sandqvist */
+  width: 300px;
+  height: 300px;
+  /* Begin help from second year NMD student Erik Sandquist */
   object-fit: contain;
-  /* End help from second year NMD student Erik Sandqvist */
+  /* End help from second year NMD student Erik Sandquist */
+}
+
+/* sent email */
+main p {
+  border: 20px solid rgb(254, 220, 226);
 }
 
 /* Main ends */
@@ -77,6 +86,11 @@ img {
 footer {
   border-top: 2px solid black;
   margin-top: 40px;
+  padding-top: 15px;
+}
+
+footer p {
+  margin: 5px;
 }
 
 /* Footer ends */
