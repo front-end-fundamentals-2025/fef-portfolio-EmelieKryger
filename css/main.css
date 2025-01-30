@@ -17,15 +17,16 @@ header {
   margin-top: 10px;
   margin-left: 10px;
 }
+
 header li {
   margin-left: 10px;
 }
-#headerh3 {
+h3 {
   border: 2px solid black;
   display: inline;
   padding: 4px;
 }
-#headerul {
+ul {
   display: flex;
   list-style: none;
   padding-left: 0;
@@ -84,6 +85,7 @@ form a {
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
   margin-left: 7px;
+  margin-right: 7px;
   margin-top: 10px;
 }
 
@@ -142,3 +144,23 @@ footer p {
 }
 
 /* Footer ends */
+
+@media screen and (max-width: 430px) {
+  header,
+  ul {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  header li {
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 430px) {
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
