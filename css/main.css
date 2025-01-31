@@ -1,6 +1,6 @@
 /* Background and fonts*/
 * {
-  background-color: rgb(219, 210, 199);
+  background-color: rgb(238, 231, 223);
   font-family: "Quicksand", serif;
   font-weight: 300;
   /* Start help from second year NMD student, Erik Sandquist */
@@ -21,11 +21,13 @@ header {
 header li {
   margin-left: 10px;
 }
-h3 {
-  border: 2px solid black;
-  display: inline;
-  padding: 4px;
+header img {
+  margin-left: 7px;
+  margin-top: 7px;
+  width: 150px;
+  height: 60px;
 }
+
 ul {
   display: flex;
   list-style: none;
