@@ -42,43 +42,44 @@ a {
 
 /* Main */
 /* index */
-#main-img {
-  width: 40%;
-  margin-left: 7px;
+h1 {
+  color: rgb(99, 27, 35);
+  margin-left: 16px;
   margin-top: 10px;
 }
 
-h1 {
-  color: rgb(99, 27, 35);
-  margin-left: 7px;
-  margin-top: 10px;
+#main-img {
+  width: 40%;
+  margin-left: 16px;
+  margin-top: 30px;
 }
 
 #aboutme {
-  margin-left: 7px;
-  margin-top: 10px;
+  margin-left: 16px;
+  margin-top: 30px;
 }
 
 #contact {
-  margin-left: 7px;
+  margin-left: 16px;
   margin-top: 10px;
 }
 
 /* contact */
 form input {
-  margin-left: 7px;
+  margin-left: 16px;
   margin-top: 5px;
   margin-bottom: 25px;
   padding-right: 20px;
 }
 
 form label {
-  margin-left: 7px;
+  margin-left: 16px;
 }
 
+/* Submit button */
 form a {
   border: 2px;
-  margin-left: 7px;
+  margin-left: 16px;
 }
 
 /* projects */
@@ -86,8 +87,8 @@ form a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
-  margin-left: 7px;
-  margin-right: 7px;
+  margin-left: 16px;
+  margin-right: 16px;
   margin-top: 10px;
 }
 
@@ -105,12 +106,12 @@ figure {
 
 /* Project 1 */
 #project1p {
-  margin-left: 7px;
+  margin-left: 16px;
   margin-top: 10px;
 }
 
 #project1img {
-  margin-left: 7px;
+  margin-left: 16px;
   margin-top: 10px;
   width: 70%;
   height: auto;
@@ -119,14 +120,14 @@ figure {
 
 /* For all the project 1-6 */
 #backtoproject {
-  margin-left: 7px;
+  margin-left: 16px;
   margin-top: 10px;
 }
 
 /* sent email */
 #sentemail {
   background-color: rgb(254, 220, 226);
-  padding: 10px;
+  padding: 20px;
   margin-top: 20px;
 }
 
@@ -140,7 +141,7 @@ footer {
 }
 
 footer p {
-  margin-left: 7px;
+  margin-left: 10px;
   margin-bottom: 5px;
 }
 
