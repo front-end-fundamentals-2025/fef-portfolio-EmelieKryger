@@ -52,10 +52,54 @@ h1 {
   margin-top: 10px;
 }
 
-#main-img {
-  width: 40%;
+.main-img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: pictureslide;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  opacity: 0;
+}
+
+#pictureslide {
+  width: 300px;
+  height: 400px;
+  position: relative; /* change referense piont for divs inside*/
   margin-left: 16px;
   margin-top: 30px;
+}
+
+#image1 {
+  animation-delay: 0s;
+}
+
+#image2 {
+  animation-delay: 6.666s;
+}
+
+#image3 {
+  animation-delay: 13.333s;
+}
+
+/* main picture animation */
+/* One picture at a time */
+@keyframes pictureslide {
+  0% {
+    opacity: 0;
+  }
+  5%,
+  35% {
+    opacity: 1;
+  }
+  40%,
+  100% {
+    opacity: 0;
+  }
 }
 
 #aboutme {
@@ -65,7 +109,7 @@ h1 {
 
 #contact {
   margin-left: 16px;
-  margin-top: 10px;
+  margin-top: 16px;
 }
 
 /* contact */
@@ -74,6 +118,13 @@ form input {
   margin-top: 5px;
   margin-bottom: 25px;
   padding-right: 20px;
+  padding: 2px 4px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+form input:focus {
+  outline: 1px solid black;
 }
 
 form label {
@@ -82,8 +133,25 @@ form label {
 
 /* Submit button */
 form a {
-  border: 2px;
   margin-left: 16px;
+}
+
+/* Buttons */
+.button {
+  display: block;
+  width: fit-content;
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  transition: all 0.3s;
+  padding: 2px 4px;
+  transform: scale(1);
+}
+
+.button:hover {
+  color: white;
+  background-color: rgb(99, 27, 35);
+  transform: scale(1.2);
 }
 
 /* projects */
@@ -117,7 +185,7 @@ figure {
 #project1img {
   margin-left: 16px;
   margin-top: 10px;
-  width: 70%;
+  width: 50%;
   height: auto;
   object-fit: contain;
 }
@@ -125,7 +193,7 @@ figure {
 /* For all the project 1-6 */
 #backtoproject {
   margin-left: 16px;
-  margin-top: 10px;
+  margin-top: 16px;
 }
 
 /* sent email */
@@ -133,6 +201,12 @@ figure {
   background-color: rgb(254, 220, 226);
   padding: 20px;
   margin-top: 20px;
+}
+
+/* back home button */
+#backhome {
+  margin-left: 16px;
+  margin-top: 16px;
 }
 
 /* Main ends */
@@ -153,6 +227,7 @@ footer p {
 
 /* @Media begins */
 
+/* Links, home and projects */
 @media screen and (max-width: 480px) {
   header,
   ul {
@@ -166,6 +241,7 @@ footer p {
   }
 }
 
+/* projects pictures */
 @media screen and (max-width: 800px) {
   .projects {
     display: grid;
