@@ -56,9 +56,11 @@ h1 {
   width: 300px;
   height: 400px;
   object-fit: cover;
+  /* begin help nmd student */
   position: absolute;
   top: 0;
   left: 0;
+  /* end help nmd student */
   animation-name: pictureslide;
   animation-duration: 20s;
   animation-iteration-count: infinite;
@@ -69,11 +71,14 @@ h1 {
 #pictureslide {
   width: 300px;
   height: 400px;
+  /* begin help nmd student */
   position: relative; /* change referense piont for divs inside*/
+  /* end help nmd student */
   margin-left: 16px;
   margin-top: 30px;
 }
 
+/* begin help nmd student */
 #image1 {
   animation-delay: 0s;
 }
@@ -85,6 +90,7 @@ h1 {
 #image3 {
   animation-delay: 13.333s;
 }
+/* end help nmd student */
 
 /* main picture animation */
 /* One picture at a time */
