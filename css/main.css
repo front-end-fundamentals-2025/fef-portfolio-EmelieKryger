@@ -10,7 +10,9 @@
 }
 
 html {
+  /* Start help from second year NMD student, Erik Sandquist */
   background-color: rgb(238, 231, 223);
+  /* End help from second year NMD student, Erik Sandquist */
 }
 
 /* Header */
@@ -26,11 +28,6 @@ header {
 header li {
   margin-left: 10px;
 }
-/* header img {
-  
-  width: 100%;
-  height: auto;
-} */
 
 ul {
   display: flex;
