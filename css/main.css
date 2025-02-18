@@ -110,11 +110,6 @@ h1 {
   margin-top: 30px;
 }
 
-#contact {
-  margin-left: 16px;
-  margin-top: 16px;
-}
-
 /* contact */
 form input {
   margin-left: 16px;
@@ -137,24 +132,6 @@ form label {
 /* Submit button */
 form a {
   margin-left: 16px;
-}
-
-/* Buttons */
-.button {
-  display: block;
-  width: fit-content;
-  border: 1px solid black;
-  background-color: white;
-  text-decoration: none;
-  transition: all 0.3s;
-  padding: 2px 4px;
-  transform: scale(1);
-}
-
-.button:hover {
-  color: white;
-  background-color: rgb(99, 27, 35);
-  transform: scale(1.2);
 }
 
 /* projects */
@@ -183,6 +160,11 @@ figure {
 #project1p {
   margin-left: 16px;
   margin-top: 10px;
+  display: none;
+}
+
+#project1p.visible {
+  display: block;
 }
 
 #project1img {
@@ -193,10 +175,39 @@ figure {
   object-fit: contain;
 }
 
+/* Buttons */
+.button {
+  display: block;
+  width: fit-content;
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  transition: all 0.3s;
+  padding: 2px 4px;
+  transform: scale(1);
+}
+
+.button:hover {
+  color: white;
+  background-color: rgb(99, 27, 35);
+  transform: scale(1.1);
+}
+
+/* CSS for all buttons on all pages */
+#contact {
+  margin-left: 16px;
+  margin-top: 16px;
+}
 /* For all the project 1-6 */
 #backtoproject {
   margin-left: 16px;
   margin-top: 16px;
+}
+
+#information {
+  margin-left: 16px;
+  margin-top: 16px;
+  font-size: 12pt;
 }
 
 /* sent email */
@@ -211,6 +222,8 @@ figure {
   margin-left: 16px;
   margin-top: 16px;
 }
+
+/* Ens CSS for buttons */
 
 /* Main ends */
 
